@@ -35,6 +35,7 @@ If you prefer running it locally, ensure you have Python 3 installed.
        python main.py
 
 ## Project Structure
+```bash
 flatcalc
 │
 ├── .github/
@@ -43,7 +44,7 @@ flatcalc
 ├── .gitignore                # Standard Python environment exclusions
 ├── README.md                 # Documentation and architecture guide
 └── main.py                   # Main application file containing parser and CLI loop
-
+```
 ## Usage Examples
 Once the interactive prompt calc> is active, you can pass regular calculations or custom functions:
 
