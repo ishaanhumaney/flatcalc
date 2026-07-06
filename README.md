@@ -34,21 +34,15 @@ If you prefer running it locally, ensure you have Python 3 installed.
   2. Open your terminal in the directory containing the file and execute:
        python main.py
 
-## Prject Structure
-flatcalc/
+## Project Structure
+flatcalc
 │
-
 ├── .github/
-
-│   └── workflows/
-
-│       └── ci.yml         # Multi-version automated syntax validation
-
-├── .gitignore             # Standard Python environment exclusions
-
-├── README.md              # Documentation and architecture guide
-
-└── main.py                # Main application file containing parser and CLI loop
+│      └── workflows/
+│          └── ci.yml         # Multi-version automated syntax validation
+├── .gitignore                # Standard Python environment exclusions
+├── README.md                 # Documentation and architecture guide
+└── main.py                   # Main application file containing parser and CLI loop
 
 ## Usage Examples
 Once the interactive prompt calc> is active, you can pass regular calculations or custom functions:
